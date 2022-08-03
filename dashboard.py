@@ -13,7 +13,7 @@ kolom1,kolom2,kolom3 = st.columns([1,5,1])
 with kolom1:
     st.write('')
 with kolom2:
-    plot_ekspor_impor=Image.open('Plot_ekspor_impor.png')
+    plot_ekspor_impor=Image.open('plot_ekspor_impor.png')
     st.image(plot_ekspor_impor, caption="Perkembangan ekspor impor 2014-2022*Data 2021 hanya sampai bulan Mei")
 with kolom3:
     st.write('')
